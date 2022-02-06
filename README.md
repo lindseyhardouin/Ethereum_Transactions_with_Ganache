@@ -1,7 +1,7 @@
 # Ethereum Transactions with Ganache
 
 
-This ethereum blockchain based application is used to generate payments to FinTech professional for their services. It utilizes 
+This ethereum blockchain based application is used to generate payments to FinTech professional for their services.
 ---
 
 ## Technologies
@@ -70,11 +70,11 @@ To use the application:
 
 The app user can review the transcation history, balances, transaction details, and receipient address balance & history in Ganache:
 
-![history](images/history.PNG)
+![history](Images/history.PNG)
 
-![transactions](images/transactions.PNG)
+![transactions](Images/transactions.PNG)
 
-![receiver](images/receiver.PNG)
+![receiver](Images/receiver.PNG)
 
 ---
  
