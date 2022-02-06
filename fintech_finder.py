@@ -275,11 +275,12 @@ if st.sidebar.button("Send Transaction"):
     # Your `account`, the `candidate_address`, and the `wage` as parameters
     # Save the returned transaction hash as a variable named `transaction_hash`
     
-    send_transaction({
-        "from":account,
-        "to":candidate_address,
-        "value":w3.toWei(wage, "ether")
-    })
+    transaction_hash = send_transaction(
+        account=account,
+        to=candidate_address,
+        wage=w3.toWei(wage, "ether"),
+        w3=w3
+    )
 
 
     # Markdown for the transaction hash
