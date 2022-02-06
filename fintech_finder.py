@@ -278,7 +278,7 @@ if st.sidebar.button("Send Transaction"):
     transaction_hash = send_transaction(
         account=account,
         to=candidate_address,
-        wage=w3.toWei(wage, "ether"),
+        wage=wage,
         w3=w3
     )
 
